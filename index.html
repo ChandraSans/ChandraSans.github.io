@@ -660,7 +660,7 @@ index = Math.floor(Math.random() * audio.length);
 /*document.write("\n");
 document.write(quote[index]);*/
 
-  var music = new Audio("/audio/" + audio[index]);
+  var music = new Audio(audio[index]);
       music.oncanplaythrough = function() {
         music.play();
       }
